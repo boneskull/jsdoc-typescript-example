@@ -17,7 +17,7 @@ The above claims are **false**.
 
 These two claims are **partially true**:
 
-- _"X is impossible in JSDoc"_: The things that are _impossible_ in JSDoc are mainly things you'd typically do in `.d.ts` files, like ambient module declarations, declaration merging, etc. I know of no other major feature that is _impossible_ in JSDoc (correct me if I'm wrong).
+- _"X is impossible in JSDoc"_: The things that are _impossible_ in JSDoc are mainly things you'd typically do in `.d.ts` files, like ambient module declarations, declaration merging, etc. I know of no other major feature that is _impossible_ in JSDoc (correct me if I'm wrong) other than bulk re-exports (e.g., `export type * from './something.js'`; see [Microsoft/Typescript#48104](https://github.com/microsoft/TypeScript/issues/48104)).
 
   > ℹ️ **Tip**
   >
