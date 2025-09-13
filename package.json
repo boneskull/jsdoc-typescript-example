@@ -1,0 +1,33 @@
+{
+  "name": "jsdoc-typescript-starter",
+  "version": "1.0.0",
+  "description": "A starter project showcasing TypeScript-compatible JSDoc",
+  "main": "index.js",
+  "scripts": {
+    "build:declarations": "tsc -p tsconfig.declarations.json",
+    "clean:declarations": "tsc -p tsconfig.declarations.json --clean",
+    "lint:types": "tsc"
+  },
+  "keywords": [
+    "jsdoc",
+    "typescript",
+    "ts",
+    "types",
+    "javascript"
+  ],
+  "author": {
+    "email": "boneskull@boneskull.com",
+    "name": "Christopher Hiller"
+  },
+  "exports": {
+    ".": {
+      "types": "./types/type-index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "license": "0BSD",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "types",
+    "stripInternal": true
+  },
+  "$schema": "https://json.schemastore.org/tsconfig"
+  // when you have tests, add "include": ["src"] here to avoid generating
+  // declarations for test files
+}
