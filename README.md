@@ -23,7 +23,7 @@ These two claims are **partially true**:
   >
   > Note that it is trivial to drop a `.d.ts` file into your project for the few things that are impossible in JSDoc--I do this myself to declare types for packages which ship none.
 
-- "It's too verbose": Some things are objectively more verbose (such as type assertions). Complex conditional or mapped types are nicer to write in TS than in a `@typedef`. [The introduction of `@import`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html#the-jsdoc-import-tag) in TS v5.5 mitigated a significant usability headache.
+- _"It's too verbose"_: Some things are objectively more verbose (such as type assertions). Complex conditional or mapped types are nicer to write in TS than in a `@typedef`. [The introduction of `@import`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html#the-jsdoc-import-tag) in TS v5.5 mitigated a significant usability headache.
 
 ## Features
 
