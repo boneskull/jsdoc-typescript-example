@@ -19,7 +19,7 @@ These two claims are **partially true**:
 
 - _"X is impossible in JSDoc"_: The things that are _impossible_ in JSDoc are mainly things you'd typically do in `.d.ts` files, like ambient module declarations, declaration merging, etc. I know of no other major feature that is _impossible_ in JSDoc (correct me if I'm wrong).
 
-  > [!TIP]
+  > ℹ️ **Tip**
   >
   > Note that it is trivial to drop a `.d.ts` file into your project for the few things that are impossible in JSDoc--I do this myself to declare types for packages which ship none.
 
