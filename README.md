@@ -1,6 +1,6 @@
 # jsdoc-typescript-starter
 
-> A configuration for a JS project that uses TypeScript-compatible JSDoc for type safety.
+> A starter project showcasing type-safe JavaScript using TS-compatible JSDoc
 
 ## Motivation
 
@@ -50,6 +50,11 @@ If you _do_ want to use it as a scaffold, you can:
 ## Demo
 
 See [demo](./demo) for a project that shows how to consume the generated declarations.
+
+## Reference
+
+- [Type Checking JavaScript Files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)
+- [JSDoc Reference](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)
 
 ## FAQ
 

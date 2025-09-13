@@ -1,7 +1,7 @@
 {
   "name": "jsdoc-typescript-starter",
   "version": "1.0.0",
-  "description": "A starter project showcasing TypeScript-compatible JSDoc",
+  "description": "A starter project showcasing type-safe JavaScript using TS-compatible JSDoc",
   "main": "index.js",
   "scripts": {
     "build:declarations": "tsc -p tsconfig.declarations.json",
