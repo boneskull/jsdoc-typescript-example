@@ -1,6 +1,6 @@
-# jsdoc-typescript-starter
+# jsdoc-typescript-example
 
-> A starter project showcasing type-safe JavaScript using TS-compatible JSDoc
+> An example project showcasing type-safe JavaScript using TS-compatible JSDoc
 
 ## Motivation
 
@@ -27,7 +27,7 @@ These two claims are **partially true**:
 
 ## Features
 
-Features of this starter include:
+Features of this example include:
 
 - Type safety in the IDE and in CI (check all types via `npm run lint:types`)
 - Optional generation of `.d.ts` files (via `npm run build:declarations`)
